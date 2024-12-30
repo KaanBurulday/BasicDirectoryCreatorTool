@@ -4,7 +4,7 @@ import shutil
 # This is a tool for making creating multiple folders with the same name simpler.
 # ex.: for a course of 14 weeks, creating 14 folders can be boring at times.
 
-directory_path_root = os.getenv('DIRECTORY_ROOT_PATH')
+directory_path_root = ""
 directory_name = "Week"
 directory_count = 11
 directory_start_count = 1
